@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git-Github</title>
+</head>
+<body>
+    <H1 style="color: red">Aprendendo Git</H1>
+    <button onclick="changeBackgroundColor()">DarkMode</button>
+
+    <script>
+        function changeBackgroundColor (){
+            let cor = "rgb(0, 0, 0)"  // Cor preto 
+            
+            if(document.body.style.backgroundColor === cor){
+                cor = "rgb(255, 255, 255)"
+            } else{
+                cor = "rgb(0, 0, 0)"
+            }
+            document.body.style.backgroundColor = cor
+        }
+    </script>
+</body>
+</html>
